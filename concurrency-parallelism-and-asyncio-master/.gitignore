@@ -1,0 +1,21 @@
+# VS Code
+.vscode/
+
+# Python env
+env/
+venv/
+
+# Other Python
+__pycache__/
+.pytest_cache/
+
+# Generated files
+*/concurrency/sync/*
+*/concurrency/threading/*
+*/concurrency/async/*
+*/asyncio_and_multiprocessing/wiki_titles.tsv
+
+sync/*.txt
+async/*.txt
+threading/*.txt
+wiki_titles.tsv
